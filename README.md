@@ -1,3 +1,5 @@
+# HeroUI 01
+
 # Next.js & HeroUI Template
 
 This is a template for creating applications using Next.js 14 (pages directory) and HeroUI (v2).
