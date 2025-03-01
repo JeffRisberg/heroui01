@@ -4,8 +4,8 @@ export const siteConfig = {
   name: "heroui01",
   description: "Make beautiful websites regardless of your design experience.",
   links: {
-    alpha: "https://www.tibco.com",
-    beta: "https://www.aisera.com",
-    gamma: "https://www.intel.com",
+    alpha: "alpha",
+    beta: "beta",
+    gamma: "gamma",
   },
 };
