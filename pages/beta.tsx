@@ -1,16 +1,16 @@
 import React from "react";
+import {Switch} from "@heroui/react";
 
 export default function Beta() {
-
-  const [value, setValue] = React.useState<number>(30);
-
-  const handleChange = (event: Event, newValue: number | number[]) => {
-    setValue(newValue as number);
-  };
+  const [isSelected, setIsSelected] = React.useState(true);
 
   return (
-    <div>
-      Beta
+    <div className="flex flex-col gap-2">
+      <Switch isSelected={isSelected} onValueChange={setIsSelected}>
+        Airplane mode
+      </Switch>
+      <p className="text-small text-default-500">Selected: {isSelected ? "true" : "false"}</p>
     </div>
-  )
+  );
 }
+
