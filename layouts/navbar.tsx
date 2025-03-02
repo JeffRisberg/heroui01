@@ -21,16 +21,16 @@ export const Navbar = () => {
         justify="end"
       >
         <NavbarItem className="hidden sm:flex gap-2">
-          <Link isExternal href={siteConfig.links.alpha} title="Alpha">
+          <Link href={siteConfig.links.alpha} title="Alpha">
             Alpha
           </Link>
-          <Link isExternal href={siteConfig.links.beta} title="Beta">
+          <Link href={siteConfig.links.beta} title="Beta">
             Beta
           </Link>
-          <Link isExternal href={siteConfig.links.gamma} title="Gamma">
+          <Link href={siteConfig.links.gamma} title="Gamma">
             Gamma
           </Link>
-          <Link isExternal href={siteConfig.links.epsilon} title="Epsilon">
+          <Link href={siteConfig.links.epsilon} title="Epsilon">
             Epsilon
           </Link>
         </NavbarItem>
