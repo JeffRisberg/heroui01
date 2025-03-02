@@ -1,6 +1,7 @@
-import { Navbar as HeroUINavbar, NavbarBrand, NavbarContent, NavbarItem } from "@heroui/navbar";
-import { Link } from "@heroui/link";
 import NextLink from "next/link";
+import { Link } from "@heroui/link";
+
+import { Navbar as HeroUINavbar, NavbarBrand, NavbarContent, NavbarItem } from "@heroui/navbar";
 
 import { siteConfig } from "@/config/site";
 
@@ -28,6 +29,9 @@ export const Navbar = () => {
           </Link>
           <Link isExternal href={siteConfig.links.gamma} title="Gamma">
             Gamma
+          </Link>
+          <Link isExternal href={siteConfig.links.epsilon} title="Epsilon">
+            Epsilon
           </Link>
         </NavbarItem>
       </NavbarContent>

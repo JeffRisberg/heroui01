@@ -7,5 +7,6 @@ export const siteConfig = {
     alpha: "alpha",
     beta: "beta",
     gamma: "gamma",
+    epsilon: "epsilon",
   },
 };

@@ -1,7 +1,9 @@
 import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@heroui/react";
+import DefaultLayout from "@/layouts/default";
 
 export default function Gamma() {
   return (
+    <DefaultLayout>
     <Card className="max-w-[400px]">
       <CardHeader className="flex gap-3">
         <Image
@@ -27,5 +29,6 @@ export default function Gamma() {
         </Link>
       </CardFooter>
     </Card>
+    </DefaultLayout>
   );
 }
